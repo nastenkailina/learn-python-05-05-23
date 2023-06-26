@@ -4,18 +4,18 @@ def side(x):
     return abs(x)
     # Функция считывает стороны и преобразует отрицательное число
     # в положительное, возвращает результат.
-def triangle(a,b,c):
+def triangle(a, b, c):
     if a + b > c and a + c > b and b + c > a:
         return True
     else:
         return False
     # Функция, которая проверяет условия: треугольник ли это.
     # Если 'True' возвращается результат, если треугольник существует.
-def p(a,b,c):
+def p(a, b, c):
     return a + b + c
     # Функция считает и возражает периметр.
-def square(a,b,c):
-    half_p = p(a,b,c) / 2
+def square(a, b, c):
+    half_p = p(a, b, c) / 2
     return math.sqrt(half_p * (half_p - a) * (half_p - b) * (half_p - c))
     # Вызываем функцию ‘p’, чтобы написать формулу полупериметра.
     # Выводим значение площади.
@@ -29,11 +29,11 @@ if __name__ == '__main__':
     b = side(b)
     c = side(c)
     # Вызываем функцию 'side(x)' и присваиваем переменной новое значение.
-    if triangle(a,b,c) == True:
+    if triangle(a, b, c) == True:
         print('Так, це трикутник!')
     else:
         print('Hi, це не трикутник')
-    print(p(a,b,c))
-    print(square(a,b,c))
-    # Вызываем функцию 'p(a,b,c)'. Выводим результат.
-    # Вызываем функцию 'square(a,b,c)'. Выводим результат.
+    print(p(a, b, c))
+    print(square(a, b, c))
+    # Вызываем функцию 'p(a, b, c)'. Выводим результат.
+    # Вызываем функцию 'square(a, b, c)'. Выводим результат.
