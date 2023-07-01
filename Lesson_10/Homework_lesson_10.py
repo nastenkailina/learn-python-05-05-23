@@ -1,55 +1,46 @@
-"""
-    Создаем функцию "add" для добавления заметок.
-    Ввод пользователем заметки.
-    Добавляем заметки в существующий список.
-    """
-
-
 def add(note):
+    """
+        Создаем функцию "add" для добавления заметок.
+        Ввод пользователем заметки.
+        Добавляем заметки в существующий список.
+        """
     ask_note = input('Введите заметку: ')
     note.append(ask_note)
-
-
-"""
-    Создаем функцию "earliest" для вывода заметок от ранней к последней.
-    Выводим список.
-    """
+    return note
 
 
 def earliest(note):
-    print(note)
-
-
-"""
-     Создаем функцию "latest" для вывода заметок от последней к ранней.
-     Выводим список.
-     """
+    """
+        Создаем функцию "earliest" для вывода заметок от ранней к последней.
+        Выводим список.
+        """
+    return note
 
 
 def latest(note):
-    print(note[::-1])
-
-
-"""
-    Создаем функцию "longest" для вывода заметок от длиннейших к более коротким.
-    Выводим список.
     """
+         Создаем функцию "latest" для вывода заметок от последней к ранней.
+         Выводим список.
+         """
+    return note[::-1]
 
 
 def longest(note):
-    long = sorted(note, key=len, reverse=True)
-    print(long)
-
-
-"""
-    Создаем функцию "shortest" для вывода заметок от более коротких к длиннейшим.
-    Выводим список.
     """
+        Создаем функцию "longest" для вывода заметок от длиннейших к более коротким.
+        Выводим список.
+        """
+    long = sorted(note, key=len, reverse=True)
+    return long
 
 
 def shortest(note):
+    """
+        Создаем функцию "shortest" для вывода заметок от более коротких к длиннейшим.
+        Выводим список.
+        """
     short = sorted(note, key=len)
-    print(short)
+    return short
 
 
 if __name__ == '__main__':
@@ -57,15 +48,15 @@ if __name__ == '__main__':
     while True:
         customer_input = input()
         if customer_input == 'add':
-            add(list_note)
+            list_note = add(list_note)
         elif customer_input == 'earliest':
-            earliest(list_note)
+            print(earliest(list_note))
         elif customer_input == 'latest':
-            latest(list_note)
+            print(latest(list_note))
         elif customer_input == 'longest':
-            longest(list_note)
+            print(longest(list_note))
         elif customer_input == 'shortest':
-            shortest(list_note)
+            print(shortest(list_note))
         elif customer_input == 'end':
             break
             # Когда пользователь пишет команду 'end', программа завершает работу.
