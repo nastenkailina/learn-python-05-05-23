@@ -1,4 +1,6 @@
 import os  # Импортируем "os"
+
+
 def add(note):
     """
         Создаем функцию "add" для добавления заметок.
@@ -44,23 +46,23 @@ def shortest(note):
     return short
 
 
-def make_file(file_name):
+def make_file(file_f):
     """
         Создаем функцию "make_file" для создания или чтения существующего файла.
         Если файл существует, то читаем его. Если нет - он создается.
         Выводим список.
         """
-    if os.path.isfile(file_name):
-        with open(file_name, mode='r', encoding='utf-8') as f:
-            return list(f.read().split(' '))
+    if os.path.isfile(file_f):
+        with open(file_f, mode='r', encoding='utf-8') as file:
+            return list(file.read().split(' '))
     else:
-        with open(file_name, mode='w', encoding='utf-8') as f:
-            return []
+        open(file_f, mode='w', encoding='utf-8')
+        return []
+
 
 if __name__ == '__main__':
     file_name = 'file_name.txt'  # Сохраняем названия файлов в переменную.
     list_note = make_file(file_name)  # Присваиваем результат выполнения функции в переменную.
-
 
     while True:
         customer_input = input()
