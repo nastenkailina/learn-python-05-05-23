@@ -1,0 +1,604 @@
+{
+  "tech_inventory": [
+      {
+        "model": "Elite_Book",
+        "category": "Laptop",
+        "brand": "HP",
+        "price": "192079"
+      },
+      {
+        "model": "ROG_Strix",
+        "category": "Laptop",
+        "brand": "Asus",
+        "price": "185059"
+      },
+      {
+        "model": "TUF_O2",
+        "category": "Computer_Mouse",
+        "brand": "Asus",
+        "price": "4065"
+      },
+      {
+        "model": "Galaxy_O54",
+        "category": "Smartphones",
+        "brand": "Samsung",
+        "price": "54175"
+      },
+      {
+        "model": "G",
+        "category": "Laptop",
+        "brand": "Dell",
+        "price": "56329"
+      },
+      {
+        "model": "Redmi_Note_7",
+        "category": "Smartphones",
+        "brand": "Xiaomi",
+        "price": "48220"
+      },
+      {
+        "model": "Apex_0",
+        "category": "Keyboard",
+        "brand": "Steelseries",
+        "price": "3099"
+      },
+      {
+        "model": "Professional_M4",
+        "category": "Computer_Mouse",
+        "brand": "Lenovo",
+        "price": "4580"
+      },
+      {
+        "model": "Rog_F8",
+        "category": "Keyboard",
+        "brand": "Asus",
+        "price": "1785"
+      },
+      {
+        "model": "TUF_H3",
+        "category": "Computer_Mouse",
+        "brand": "Asus",
+        "price": "1459"
+      },
+      {
+        "model": "ROG_Strix",
+        "category": "Laptop",
+        "brand": "Asus",
+        "price": "84110"
+      },
+      {
+        "model": "Legion",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "price": "70869"
+      },
+      {
+        "model": "Wireless_A142",
+        "category": "Computer_Mouse",
+        "brand": "Logitech",
+        "price": "490"
+      },
+      {
+        "model": "ZenBook",
+        "category": "Laptop",
+        "brand": "Asus",
+        "price": "184620"
+      },
+      {
+        "model": "G257",
+        "category": "Computer_Mouse",
+        "brand": "Logitech",
+        "price": "4030"
+      },
+      {
+        "model": "ProBook",
+        "category": "Laptop",
+        "brand": "HP",
+        "price": "147460"
+      },
+      {
+        "model": "Rog_P0",
+        "category": "Keyboard",
+        "brand": "Asus",
+        "price": "620"
+      },
+      {
+        "model": "ROG_Strix",
+        "category": "Laptop",
+        "brand": "Asus",
+        "price": "182659"
+      },
+      {
+        "model": "Orochi_V8",
+        "category": "Computer_Mouse",
+        "brand": "Razer",
+        "price": "450"
+      },
+      {
+        "model": "VivoBook",
+        "category": "Laptop",
+        "brand": "Asus",
+        "price": "79389"
+      },
+      {
+        "model": "TUF_J4",
+        "category": "Computer_Mouse",
+        "brand": "Asus",
+        "price": "2375"
+      },
+      {
+        "model": "Redmi_Note_3",
+        "category": "Smartphones",
+        "brand": "Xiaomi",
+        "price": "13895"
+      },
+      {
+        "model": "TUF_A5",
+        "category": "Computer_Mouse",
+        "brand": "Asus",
+        "price": "4629"
+      },
+      {
+        "model": "Galaxy_X4_Ultra",
+        "category": "Smartphones",
+        "brand": "Samsung",
+        "price": "51990"
+      },
+      {
+        "model": "iPhone_Pro_Max",
+        "category": "Smartphones",
+        "brand": "Apple",
+        "price": "74120"
+      },
+      {
+        "model": "Lightspeed",
+        "category": "Computer_Mouse",
+        "brand": "Logitech",
+        "price": "365"
+      },
+      {
+        "model": "iPhone_Pro",
+        "category": "Smartphones",
+        "brand": "Apple",
+        "price": "36179"
+      },
+      {
+        "model": "Redmi_Note_1",
+        "category": "Smartphones",
+        "brand": "Xiaomi",
+        "price": "11040"
+      },
+      {
+        "model": "IdeaPad",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "price": "144019"
+      },
+      {
+        "model": "Apex_8",
+        "category": "Keyboard",
+        "brand": "Steelseries",
+        "price": "489"
+      },
+      {
+        "model": "Wireless_C848",
+        "category": "Computer_Mouse",
+        "brand": "Logitech",
+        "price": "460"
+      },
+      {
+        "model": "Apex_6",
+        "category": "Keyboard",
+        "brand": "Steelseries",
+        "price": "459"
+      },
+      {
+        "model": "VivoBook",
+        "category": "Laptop",
+        "brand": "Asus",
+        "price": "158425"
+      },
+      {
+        "model": "Legion",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "price": "139889"
+      },
+      {
+        "model": "iPhone_Pro_Max",
+        "category": "Smartphones",
+        "brand": "Apple",
+        "price": "71899"
+      },
+      {
+        "model": "Nova_A0",
+        "category": "Smartphones",
+        "brand": "Huawei",
+        "price": "5855"
+      },
+      {
+        "model": "Poco_VZ3",
+        "category": "Smartphones",
+        "brand": "Xiaomi",
+        "price": "13620"
+      },
+      {
+        "model": "Apex_8",
+        "category": "Keyboard",
+        "brand": "Steelseries",
+        "price": "2015"
+      },
+      {
+        "model": "TUF_H2",
+        "category": "Computer_Mouse",
+        "brand": "Asus",
+        "price": "4019"
+      },
+      {
+        "model": "Apex_3",
+        "category": "Keyboard",
+        "brand": "Steelseries",
+        "price": "415"
+      },
+      {
+        "model": "Tartarus",
+        "category": "Keyboard",
+        "brand": "Razer",
+        "price": "4335"
+      },
+      {
+        "model": "VivoBook",
+        "category": "Laptop",
+        "brand": "Asus",
+        "price": "53365"
+      },
+      {
+        "model": "Nova_H9",
+        "category": "Smartphones",
+        "brand": "Huawei",
+        "price": "10180"
+      },
+      {
+        "model": "TUF_J8",
+        "category": "Computer_Mouse",
+        "brand": "Asus",
+        "price": "610"
+      },
+      {
+        "model": "Lightspeed",
+        "category": "Computer_Mouse",
+        "brand": "Logitech",
+        "price": "2525"
+      },
+      {
+        "model": "Apex_2",
+        "category": "Keyboard",
+        "brand": "Steelseries",
+        "price": "480"
+      },
+      {
+        "model": "Rog_O6",
+        "category": "Keyboard",
+        "brand": "Asus",
+        "price": "4710"
+      },
+      {
+        "model": "iPhone_Pro_Max",
+        "category": "Smartphones",
+        "brand": "Apple",
+        "price": "25275"
+      },
+      {
+        "model": "Tartarus",
+        "category": "Keyboard",
+        "brand": "Razer",
+        "price": "1310"
+      },
+      {
+        "model": "Rog_V8",
+        "category": "Computer_Mouse",
+        "brand": "Asus",
+        "price": "1695"
+      },
+      {
+        "model": "Apex_3",
+        "category": "Keyboard",
+        "brand": "Steelseries",
+        "price": "4625"
+      },
+      {
+        "model": "ThinkPad",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "price": "98459"
+      },
+      {
+        "model": "ThinkPad",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "price": "166155"
+      },
+      {
+        "model": "Rog_W8",
+        "category": "Keyboard",
+        "brand": "Asus",
+        "price": "480"
+      },
+      {
+        "model": "Tartatus",
+        "category": "Keyboard",
+        "brand": "Razer",
+        "price": "4419"
+      },
+      {
+        "model": "Professional_E7",
+        "category": "Computer_Mouse",
+        "brand": "Lenovo",
+        "price": "390"
+      },
+      {
+        "model": "Latitude",
+        "category": "Laptop",
+        "brand": "Dell",
+        "price": "203069"
+      },
+      {
+        "model": "Apex_2",
+        "category": "Keyboard",
+        "brand": "Steelseries",
+        "price": "1235"
+      },
+      {
+        "model": "ThinkBook_S4",
+        "category": "Computer_Mouse",
+        "brand": "Lenovo",
+        "price": "2765"
+      },
+      {
+        "model": "Orochi_G0",
+        "category": "Computer_Mouse",
+        "brand": "Razer",
+        "price": "4765"
+      },
+      {
+        "model": "Redmi_Note_7",
+        "category": "Smartphones",
+        "brand": "Xiaomi",
+        "price": "15999"
+      },
+      {
+        "model": "Legion_30",
+        "category": "Computer_Mouse",
+        "brand": "Lenovo",
+        "price": "1860"
+      },
+      {
+        "model": "IdeaPad",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "price": "43359"
+      },
+      {
+        "model": "Naga_H3",
+        "category": "Computer_Mouse",
+        "brand": "Razer",
+        "price": "4485"
+      },
+      {
+        "model": "G697",
+        "category": "Computer_Mouse",
+        "brand": "Logitech",
+        "price": "370"
+      },
+      {
+        "model": "G282",
+        "category": "Computer_Mouse",
+        "brand": "Logitech",
+        "price": "3310"
+      },
+      {
+        "model": "IdeaPad",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "price": "32569"
+      },
+      {
+        "model": "Orochi_N5",
+        "category": "Computer_Mouse",
+        "brand": "Razer",
+        "price": "1619"
+      },
+      {
+        "model": "ProBook",
+        "category": "Laptop",
+        "brand": "HP",
+        "price": "180749"
+      },
+      {
+        "model": "O17_Mechanical",
+        "category": "Keyboard",
+        "brand": "Logitech",
+        "price": "4585"
+      },
+      {
+        "model": "IdeaPad",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "price": "40920"
+      },
+      {
+        "model": "G",
+        "category": "Laptop",
+        "brand": "Dell",
+        "price": "185415"
+      },
+      {
+        "model": "ThinkPad",
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "price": "119359"
+      },
+      {
+        "model": "VivoBook",
+        "category": "Laptop",
+        "brand": "Asus",
+        "price": "227165"
+      },
+      {
+        "model": "MacBook_Air",
+        "category": "Laptop",
+        "brand": "Apple",
+        "price": "46075"
+      },
+      {
+        "model": "Nova_W9",
+        "category": "Smartphones",
+        "brand": "Huawei",
+        "price": "7730"
+      },
+      {
+        "model": "Huntsman",
+        "category": "Keyboard",
+        "brand": "Razer",
+        "price": "7330"
+      },
+      {
+        "model": "Rog_F2",
+        "category": "Keyboard",
+        "brand": "Asus",
+        "price": "4379"
+      },
+      {
+        "model": "TUF_U2",
+        "category": "Computer_Mouse",
+        "brand": "Asus",
+        "price": "3370"
+      },
+      {
+        "model": "Latitude",
+        "category": "Laptop",
+        "brand": "Dell",
+        "price": "16959"
+      },
+      {
+        "model": "iPhone",
+        "category": "Smartphones",
+        "brand": "Apple",
+        "price": "39320"
+      },
+      {
+        "model": "TUF_10",
+        "category": "Keyboard",
+        "brand": "Asus",
+        "price": "2285"
+      },
+      {
+        "model": "Craft_Wireless",
+        "category": "Keyboard",
+        "brand": "Logitech",
+        "price": "4329"
+      },
+      {
+        "model": "Rog_U6",
+        "category": "Keyboard",
+        "brand": "Asus",
+        "price": "2235"
+      },
+      {
+        "model": "Rog_A0",
+        "category": "Computer_Mouse",
+        "brand": "Asus",
+        "price": "990"
+      },
+      {
+        "model": "Huntsman",
+        "category": "Keyboard",
+        "brand": "Razer",
+        "price": "7540"
+      },
+      {
+        "model": "Huntsman",
+        "category": "Keyboard",
+        "brand": "Razer",
+        "price": "7355"
+      },
+      {
+        "model": "iPhone_Pro_Max",
+        "category": "Smartphones",
+        "brand": "Apple",
+        "price": "74789"
+      },
+      {
+        "model": "ProBook",
+        "category": "Laptop",
+        "brand": "HP",
+        "price": "179625"
+      },
+      {
+        "model": "MacBook_Air",
+        "category": "Laptop",
+        "brand": "Apple",
+        "price": "128670"
+      },
+      {
+        "model": "Tartatus",
+        "category": "Keyboard",
+        "brand": "Razer",
+        "price": "5325"
+      },
+      {
+        "model": "iPhone_Pro",
+        "category": "Smartphones",
+        "brand": "Apple",
+        "price": "72920"
+      },
+      {
+        "model": "ProBook",
+        "category": "Laptop",
+        "brand": "HP",
+        "price": "133090"
+      },
+      {
+        "model": "M31_Mechanical",
+        "category": "Keyboard",
+        "brand": "Logitech",
+        "price": "4525"
+      },
+      {
+        "model": "Wireless_G331",
+        "category": "Computer_Mouse",
+        "brand": "Logitech",
+        "price": "1910"
+      },
+      {
+        "model": "Rog_10",
+        "category": "Computer_Mouse",
+        "brand": "Asus",
+        "price": "1340"
+      },
+      {
+        "model": "ThinkBook_K7",
+        "category": "Computer_Mouse",
+        "brand": "Lenovo",
+        "price": "2850"
+      },
+      {
+        "model": "Redmi_Note_7",
+        "category": "Smartphones",
+        "brand": "Xiaomi",
+        "price": "46060"
+      },
+      {
+        "model": "Nova_L4",
+        "category": "Smartphones",
+        "brand": "Huawei",
+        "price": "7885"
+      },
+      {
+        "model": "Orochi_T1",
+        "category": "Computer_Mouse",
+        "brand": "Razer",
+        "price": "3849"
+      }
+  ]
+}
