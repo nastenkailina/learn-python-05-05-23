@@ -1,7 +1,5 @@
 import csv
-import random
-
-ALFABET = 'qwertyuiopasdfghjklzxcvbnm'
+import uuid
 
 
 def open_csv_file_dict(filename) -> list:
@@ -23,8 +21,7 @@ def genarate_uniq_id():
     """
     Генеруе унікальні ид
     """
-    random_string = ''.join(random.choice(ALFABET) for i in range(16))
-    return random_string
+    return uuid.uuid4()
 
 
 def create_uniq_index(all_data: list) -> dict:
@@ -57,13 +54,16 @@ def create_index(all_data: dict, column_name: str) -> dict:
     return new_index
 
 
-def show_statistic(all_data):
+def show_statistic(all_data, type):
     """
     Виводить на екран статистику скільки товарів є по переданому словнику
     """
+    title = ' в категории: '
+    if type == 'brand':
+        title = ' по брендам: '
     for data_entry in all_data:
         count = str(len(all_data[data_entry]))
-        print('Товаров в категории: '+data_entry+' - '+count+'шт.')
+        print('Товаров'+title+data_entry+' - '+count+'шт.')
 
 
 def calc_items_by_category(uniq_index_data, data_index):
@@ -96,6 +96,14 @@ def show_items_by_category(items):
             print('- ' + model + ' ' + count + ' шт.')
 
 
+def show_full_info(uniq_index_data, data_index, name):
+    """
+    Виводить на екран перелік повної інформації про кожний товар одного обраного бренда чи однієї обраної категорії
+    """
+    for data in data_index[name]:
+        print(uniq_index_data[data])
+
+
 if __name__ == '__main__':
     file = open_csv_file_dict('tech_inventory.csv')
 
@@ -104,8 +112,11 @@ if __name__ == '__main__':
     category_index = create_index(uniq_index, 'category')
     brand_index = create_index(uniq_index, 'brand')
 
-    show_statistic(category_index)
-    show_statistic(brand_index)
+    show_statistic(category_index, 'category')
+    show_statistic(brand_index, 'brand')
 
     items_by_category = calc_items_by_category(uniq_index, category_index)
     show_items_by_category(items_by_category)
+
+    show_full_info(uniq_index, category_index, 'Laptop')
+    show_full_info(uniq_index, brand_index, 'Asus')
